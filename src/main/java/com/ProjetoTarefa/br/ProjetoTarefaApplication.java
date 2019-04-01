@@ -29,9 +29,9 @@ public class ProjetoTarefaApplication implements CommandLineRunner{
 		
 		Tarefa t1 = new Tarefa(null,"Terminar o trabalho do nene",sdf.parse("28/03/2019 22:00"),EstadoTarefa.CONCLUIDA);
 		Tarefa t2 = new Tarefa(null,"Almoçar",sdf.parse("12/04/2019 12:30"),EstadoTarefa.PENDENTE);
-		Tarefa t3 = new Tarefa(null,"Dormir",sdf.parse("29/03/2019 23:50"),EstadoTarefa.PENDENTE);
+		Tarefa t3 = new Tarefa(null,"Dormir",sdf.parse("29/03/2019 23:50"),EstadoTarefa.ATRASADA);
 		Tarefa t4 = new Tarefa(null,"Fazer a modelagem do sistema SA",sdf.parse("06/04/2019 18:00"),EstadoTarefa.PENDENTE);
-		Tarefa t5 = new Tarefa(null,"Dar comida para o gato",sdf.parse("29/03/2019 00:00"),EstadoTarefa.CONCLUIDA);
+		Tarefa t5 = new Tarefa(null,"Dar comida para o gato",sdf.parse("29/03/2019 00:00"),EstadoTarefa.ATRASADA);
 		
 		
 		

@@ -2,7 +2,7 @@ package com.ProjetoTarefa.br.enums;
 
 public enum EstadoTarefa {
 	
-	CONCLUIDA(1,"Concluída"), PENDENTE(2,"Em andamento");
+	CONCLUIDA(1,"Concluída"), PENDENTE(2,"Em andamento"), ATRASADA(3,"Atrasada");
 	
 	private Integer codigo;
 	private String descricao;
