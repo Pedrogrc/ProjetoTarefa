@@ -21,6 +21,10 @@ public class Tarefa implements Serializable {
 	private Date data;
 	private Integer estado;
 
+	public Tarefa() {
+		
+	}
+	
 	public Tarefa(Integer id, String tarefa, Date data, EstadoTarefa estado) {
 		this.id = id;
 		this.tarefa = tarefa;
